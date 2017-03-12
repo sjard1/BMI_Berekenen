@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://schemas.hu.fnt.nl/Vrouw/response"
+           targetNamespace="http://schemas.hu.fnt.nl/Vrouw/response">
+<xs:element name="BMIBerekenVrouw.response.soap" type="tns:responseVrouw" />
+<xs:complexType name="responseVrouw">
+    <xs:all minOccurs="1">
+        <xs:element name="result" type="xs:double" />
+    </xs:all>
+</xs:complexType>
+</xs:schema>

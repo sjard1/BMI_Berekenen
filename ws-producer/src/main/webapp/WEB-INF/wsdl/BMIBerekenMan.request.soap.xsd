@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://schemas.hu.fnt.nl/Man/request"
+           targetNamespace="http://schemas.hu.fnt.nl/Man/request">
+    <xs:element name="BMIBerekenMan.request.soap" type="tns:request" />
+
+    <xs:complexType name="request">
+        <!--Maar 1x per element een waarde mogen mee gegeven-->
+        <xs:all minOccurs="1">
+            <xs:element name="x" type="xs:double">
+
+            </xs:element>
+
+            <!--De lengte mag moet positief zijn en een double-->
+            <xs:element name="power" type="xs:double">
+
+            </xs:element>
+        </xs:all>
+    </xs:complexType>
+
+</xs:schema>

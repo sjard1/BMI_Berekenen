@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BMI_Bereken" target="1.5" />
       <module name="powerservice" target="1.5" />
       <module name="ws-consumer" target="1.8" />
       <module name="ws-producer" target="1.8" />

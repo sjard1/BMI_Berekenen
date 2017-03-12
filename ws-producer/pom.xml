@@ -5,7 +5,7 @@
 	<packaging>war</packaging>
 	<parent>
 		<groupId>nl.hu.iac</groupId>
-		<artifactId>powerservice</artifactId>
+		<artifactId>BerekenBMIService</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 	<name>Producer Maven Webapp</name>
@@ -49,7 +49,7 @@
 							<wsdlDirectory>src/main/webapp/WEB-INF/wsdl/</wsdlDirectory>
 							<!-- which wsdl file -->
 							<wsdlFiles>
-								<wsdlFile>powerservice.wsdl</wsdlFile>
+								<wsdlFile>BerekenBMIService.wsdl</wsdlFile>
 							</wsdlFiles>
 							<!-- Keep generated files -->
 							<keep>true</keep>

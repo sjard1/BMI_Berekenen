@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>nl.hu.iac</groupId>
-	<artifactId>powerservice</artifactId>
+	<artifactId>BerekenBMIService</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>Simple parent project for IAC purpose</name>
 
 	<modules>
 		<module>ws-producer</module>
-		<module>ws-consumer</module>
+
 	</modules>
 
 	<dependencyManagement>

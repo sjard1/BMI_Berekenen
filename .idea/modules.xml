@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/powerservice.iml" filepath="$PROJECT_DIR$/powerservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BMI_Bereken.iml" filepath="$PROJECT_DIR$/BMI_Bereken.iml" />
       <module fileurl="file://$PROJECT_DIR$/ws-producer/ws-producer.iml" filepath="$PROJECT_DIR$/ws-producer/ws-producer.iml" />
     </modules>
   </component>

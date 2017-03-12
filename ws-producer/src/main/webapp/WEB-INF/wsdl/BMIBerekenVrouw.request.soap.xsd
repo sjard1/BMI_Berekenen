@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:tns="http://schemas.hu.fnt.nl/berichten/request"
-           targetNamespace="http://schemas.hu.fnt.nl/berichten/request">
-    <xs:element name="powerrequest" type="tns:request" />
-    <xs:complexType name="request">
+           xmlns:tns="http://schemas.hu.fnt.nl/Vrouw/request"
+           targetNamespace="http://schemas.hu.fnt.nl/Vrouw/request">
+    <xs:element name="BMIBerekenVrouw.request.soap" type="tns:requestVrouw" />
+    <xs:complexType name="requestVrouw">
         <xs:all minOccurs="1">
             <xs:element name="x" type="xs:double" />
             <xs:element name="power" type="xs:double" />
