@@ -21,7 +21,7 @@ public class PowerServiceImpl implements WSInterface {
 		Response response = factory.createResponse();
 		try {
 			//BMI berekenen
-			double result = request.getPower();
+			double result = request.getX() / (request.getPower() *request.getPower());
 			response.setResult(result);
 		} catch (Exception e) {
 			PowerFault x = factory.createPowerFault();
