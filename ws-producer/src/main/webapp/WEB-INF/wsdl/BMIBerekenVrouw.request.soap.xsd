@@ -5,8 +5,8 @@
     <xs:element name="BMIBerekenVrouw.request.soap" type="tns:requestVrouw" />
     <xs:complexType name="requestVrouw">
         <xs:all minOccurs="1">
-            <xs:element name="x" type="xs:double" />
-            <xs:element name="power" type="xs:double" />
+            <xs:element name="GewichtInHeleKilos" type="xs:nonNegativeInteger" />
+            <xs:element name="LengteinCm" type="xs:nonNegativeInteger" />
         </xs:all>
     </xs:complexType>
 </xs:schema>

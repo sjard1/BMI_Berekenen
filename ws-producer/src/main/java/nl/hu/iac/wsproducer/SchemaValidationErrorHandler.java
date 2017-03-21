@@ -24,9 +24,10 @@ public class SchemaValidationErrorHandler extends ValidationErrorHandler {
     }
 
     private String handleMessage(String level, SAXParseException exception) throws SAXException {
+        exception.printStackTrace();
         int lineNumber = exception.getLineNumber();
         int columnNumber = exception.getColumnNumber();
         String message = exception.getMessage();
-        throw new SAXException("[" + level + "] line nr: " + lineNumber + " column nr: " + columnNumber + " message: " + message);
+        throw new SAXException("[" + level + "] line nr: " + lineNumber + " column nr: " + columnNumber + " message: " + message + " RANDOM TOELIE");
     }
 }

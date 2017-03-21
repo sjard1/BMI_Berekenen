@@ -7,12 +7,10 @@
     <xs:complexType name="request">
         <!--Maar 1x per element een waarde mogen mee gegeven-->
         <xs:all minOccurs="1">
-            <xs:element name="x" type="xs:double">
+            <xs:element name="gewicht" type="xs:nonNegativeInteger"></xs:element>
 
-            </xs:element>
-
-            <!--De lengte mag moet positief zijn en een double-->
-            <xs:element name="power" type="xs:double">
+            <!--De lengte mag moet positief zijn en een int-->
+            <xs:element name="lengte" type="xs:nonNegativeInteger">
 
             </xs:element>
         </xs:all>
